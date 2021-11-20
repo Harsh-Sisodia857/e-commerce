@@ -7,13 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My-Store.com</title>
     <link rel="stylesheet" href="style.css">
-    <script src="../jquery/js/jquery.js"></script>
-    <script src="../jquery-plugin/slider/jquery.flipster.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="../jquery-plugin/slider/jquery.flipster.min.css">
-    <script src="../jquery-plugin/scroll-up/jquery.scrollUp.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./jquery-plugin/slider/jquery.flipster.min.css">
+
 </head>
+
 <body>
-    <div class="wrapper">
+    <div class="wra">
         <header>
             <div class="search">
                 <div class="search-icon">
@@ -38,334 +37,364 @@
                     </div>
                 </div>
             </div>
+            <div class="navbar shadow">
+                <ul class="navigation">
+                    <li>
+                        <a href="#" id="first">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Men</a>
+                    </li>
+                    <li>
+                        <a href="#">Women</a>
+                    </li>
+                    <li>
+                        <a href="#">Baby & Kid</a>
+                    </li>
+                    <li>
+                        <a href="#">Home & Furniture</a>
+                    </li>
+                    <li>
+                        <a href="#">Sports</a>
+                    </li>
+                    <li>
+                        <a href="#">Electronic Accessories</a>
+                    </li>
+                    <li>
+                        <a href="#">Mobile Accessories</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <section id="section">
+            <div class="main">
+                <div class="intro">
+                    <h1>Welcome to <span>My-Store</span></h1>
+                    <h1>The World Best <span id="shoping">Shoping</span> Website</h1>
+                    <div id="text">Happiness is not in money but in shopping</div>
+                    <div id="btn-sect">
+                        <button class="btn btn-primary">Shop Now</button>
+                    </div>
+                </div>
+                <div class="mens-deals">
+                    <div id="timer">
+                        <h1 class="center heading" style="height: 3rem;">Deals Of The Day</h1>
+                        <span id="countdown"></span>
+                    </div>
+                    <div class="deal">
+                        <ul>
+                            <li>
+                                <div><img src="./images/Mens/Men's Fasion-1.jpg" alt="">
+                                    <div class="price">From &#8377 499</div>
+                                    <div class="price">Upto 50% Off</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div><img src="./images/Mens/Men's Fasion-2.jpg" alt="">
+                                    <div class="price">From &#8377 799</div>
+                                    <div class="price">Extra 10% Off</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div><img src="./images/Mens/Men's Fasion-3.jpg" alt="">
+                                    <div class="price">From &#8377 649</div>
+                                    <div class="price">Upto 30% Off</div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div><img src="./images/Mens/Men's Fasion-4.jpg" alt="">
+                                    <div class="price">From &#8377 999</div>
+                                    <div class="price">Extra 28% Off</div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div><img src="./images/Mens/Men's Fasion-5.jpg" alt="">
+                                    <div class="price">From &#8377 749</div>
+                                    <div class="price">Upto 50% Off</div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div><img src="./images/Mens/Men's Fasion-6.jpg" alt="">
+                                    <div class="price">From &#8377 499</div>
+                                    <div class="price">Extra 56% Off</div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div><img src="./images/Mens/Men's Fasion-7.jpg" alt="">
+                                    <div class="price">From &#8377 999</div>
+                                    <div class="price">Upto 50% Off</div>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="offers">
+                    <div class="heading">
+                        <div class="center">Top Offers On</div>
+                        <div class="font-size">Men's Accessories</div>
+                    </div>
+                    <div class="top-offers">
+                        <ul>
+                            <li>
+                                <div>
+                                    <img src="./images/Top Offers/Bag.jpg" alt="">
+                                    <div class="price">From &#8377 499</div>
+                                    <div class="price">Extra 20% Off</div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div><img src="./images/Top Offers/Laptop Bag.jpg" alt="">
+                                    <div class="price">From &#8377 799</div>
+                                    <div class="price">Upto 50% Off</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div><img src="./images/Top Offers/lens.jpg" alt="">
+                                    <div class="price">From &#8377 649</div>
+                                    <div class="price">Extra 15% Off</div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div><img src="./images/Top Offers/Suitcase.jpg" alt="">
+                                    <div class="price">From &#8377 999</div>
+                                    <div class="price">Upto 10% Off</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div><img src="./images/Top Offers/Sunglasses.jpg" alt="">
+                                    <div class="price">From &#8377 749</div>
+                                    <div class="price">Upto 80% Off</div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div><img src="./images/Top Offers/Watch.jpg" alt="">
+                                    <div class="price">From &#8377 499</div>
+                                    <div class="price">Upto 60% Off</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div><img src="./images/Top Offers/Watch2.jpg" alt="">
+                                    <div class="price">From &#8377 999</div>
+                                    <div class="price">Extra 40% Off</div>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="Footwear">
+                    <div class="heading">
+                        <div class="center">Men's Footwear</div>
+                    </div>
+                    <div class="shoes">
+                        <ul>
+                            <li>
+                                <div>
+                                    <img src="./images/Men's Footwear/Footwear-1.jpg" alt="Footwear">
+                                    <div class="price">From &#8377 499</div>
+                                    <div class="price">Upto 50% Off</div>
+
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="./images/Men's Footwear/Footwear-2.jpg" alt="Footwear">
+                                    <div class="price">From &#8377 499</div>
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="./images/Men's Footwear/Footwear-3.jpg" alt="Footwear">
+                                    <div class="price">From &#8377 499</div>
+
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="./images/Men's Footwear/Footwear-4.jpg" alt="Footwear">
+                                    <div class="price">From &#8377 499</div>
+                                    <div class="price">Min 50% Off</div>
+
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="./images/Men's Footwear/Footwear-7.jpg" alt="Footwear">
+                                    <div class="price">From &#8377 499</div>
+                                    <div class="price">Min 40% Off</div>
+
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="./images/Men's Footwear/Footwear-5.jpg" alt="Footwear">
+                                    <div class="price">From &#8377 499</div>
+                            </li>
+                            <li>
+                                <div>
+                                    <img src="./images/Men's Footwear/Footwear-6.jpg" alt="Footwear">
+                                    <div class="price">From &#8377 499</div>
+                                    <div class="price">Min 30% Off</div>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="Game">
+                    <div class="heading">
+                        <div class="center">Gaming Accessories</div>
+                    </div>
+                    <div class="game">
+                        <ul>
+                            <li>
+                                <div>
+                                    <img src="./images/Gaming Accessories/chair.jfif" alt="">
+                                    <div class="price">From &#8377 999</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div><img src="./images/Gaming Accessories/headset.jpg" alt="">
+                                    <div class="price">From &#8377 999</div>
+                                    <div class="price">Upto 70% Off</div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div><img src="./images/Gaming Accessories/Joystick.jpg" alt="">
+                                    <div class="price">From &#8377 999</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div><img src="./images/Gaming Accessories/ps5.jpg" alt="">
+                                    <div class="price">From &#8377 999</div>
+                                </div>
+                            </li>
+                            <li>
+                                <div><img src="./images/Gaming Accessories/mouse.jpg" alt="">
+                                    <div class="price">From &#8377 999</div>
+                                    <div class="price">Upto 60% Off</div>
+
+                                </div>
+                            </li>
+                            <li>
+                                <div><img src="./images/Gaming Accessories/keyboard.jfif" alt="">
+                                    <div class="price">From &#8377 999</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- grid -->
+                <div class="container">
+                    <div class="box" id="box-1">
+                        <h2>Shop By Categories</h2>
+                        <div class="wrapper">
+                            <span class="category"><img src="./images/Box-1/Laptop.jpg" alt="">
+                                <div id="text">Laptop</div>
+                            </span>
+                            <span class="category"><img src="./images/Box-1/Baby.jpg" alt="">
+                                <div id="text">Baby</div>
+                            </span>
+                            <span class="category"><img src="./images/Box-1/Toy.jpg" alt="">
+                                <div id="text">Toy</div>
+                            </span>
+                            <span class="category"><img src="./images/Box-1/Video Game.jpg" alt="">
+                                <div id="text">Videos Game</div>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="box" id="box-2">
+                        <h2>Home Decor</h2>
+                        <div class="wrapper">
+                            <span class="category"><img src="./images/Box-2/carpet.jpg" alt="">
+                                <div id="text">Carpet</div>
+                            </span>
+                            <span class="category"><img src="./images/Box-2/lamp.jpg" alt="">
+                                <div id="text">Lamp</div>
+                            </span>
+                            <span class="category"><img src="./images/Box-2/sofa.jpg" alt="">
+                                <div id="text">Sofa</div>
+                            </span>
+                            <span class="category"><img src="./images/Box-2/chair.jpg" alt="">
+                                <div id="text">Chair</div>
+                            </span>
+                        </div>
+
+                    </div>
+                    <div class="box" id="box-3">
+                        <h2>Top Deals On Electronics</h2>
+                        <div class="wrapper">
+                            <span class="category-1"><img src="./images/Box-3/wired earphone.jpg" alt="">
+                                <div id="text">Wired Earphone</div>
+                            </span>
+                            <span class="category-2"><img src="./images/Box-3/Keyboard Skin.jpeg" alt="">
+                                <div id="text">Computer skin</div>
+                            </span>
+                            <span class="category-3"><img src="./images/Box-3/Data Card.jpeg" alt="">
+                                <div id="text">Data Card</div>
+                            </span>
+                            <span class="category-4"><img src="./images/Box-3/Computer cable.jpeg" alt="">
+                                <div id="text">Computer cable</div>
+                            </span>
+                        </div>
+
+                    </div>
+                    <!-- <div class="box" id="box-4"></div> -->
+                    <div class="box" id="box-5"></div>
+                    <div class="box" id="box-6">
+                        <h2>Top Sellers In Book For You</h2>
+                        <div class="wrapper">
+                            <span class="category"><img src="./images/Box-4/book1.jpg" alt=""></span>
+                            <span class="category"><img src="./images/Box-4/book2.jpg" alt=""></span>
+                            <span class="category"><img src="./images/Box-4/book3.jpg" alt=""></span>
+                            <span class="category"><img src="./images/Box-4/book4.jpg" alt=""></span>
+                        </div>
+                    </div>
+                    <div class="box" id="box-7"></div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer-content">
+            <div class="footer">
+                <div class="foot">
+                    <h1>Connect with us</h1>
+                    <div><a href="http://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></div>
+                    <div><a href="http://instagram.com">Instagram</a></div>
+                    <div><a href="http://twitter.com">Twitter</a></div>
+                </div>
+                <div class="foot">
+                    <h1>Help</h1>
+                    <div>Payment</div>
+                    <div>Shipping</div>
+                    <div>Cancellation & Return</div>
+                    <div>FAQ</div>
+                </div>
+                <div class="foot">
+                    <h1>Become Buisness Partner</h1>
+                    <div>Sell on My-Store</div>
+                    <div>Advertise Your Product</div>
+                    <div>Become an Affilate</div>
+                </div>
+                <div class="foot" id="last">
+                    <h1>Policy</h1>
+                    <div>Return Policy</div>
+                    <div>Terms Of Use</div>
+                    <div>Security</div>
+                    <div>Privacy</div>
+                </div>
+            </div>
+        </footer>
     </div>
-    <div class="navbar shadow">
-        <ul class="navigation">
-            <li>
-                <a href="#" id="first">Home</a>
-            </li>
-            <li>
-                <a href="#">Men</a>
-            </li>
-            <li>
-                <a href="#">Women</a>
-            </li>
-            <li>
-                <a href="#">Baby & Kid</a>
-            </li>
-            <li>
-                <a href="#">Home & Furniture</a>
-            </li>
-            <li>
-                <a href="#">Sports</a>
-            </li>
-            <li>
-                <a href="#">Electronic Accessories</a>
-            </li>
-            <li>
-                <a href="#">Mobile Accessories</a>
-            </li>
-        </ul>
     </div>
-    </header>
-    <section>
-        <div class="intro">
-            <h1>Welcome to <span>My-Store</span></h1>
-            <h1>The World Best <span id="shoping">Shoping</span> Website</h1>
-            <div id="text">Happiness is not in money but in shopping</div>
-            <div id="btn-sect">
-                <button class="btn btn-primary">Shop Now</button>
-            </div>
-        </div>
-        <div class="mens-deals">
-            <div id="timer">
-                <h1 class="center heading">Deals Of The Day</h1>
-                <div id="countdown"></div>
-            </div>
-            <div class="deal">
-                <ul>
-                    <li>
-                        <div><img src="./images/Mens/Men's Fasion-1.jpg" alt="">
-                            <div class="price">From &#8377 499</div>
-                            <div class="price">Upto 50% Off</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div><img src="./images/Mens/Men's Fasion-2.jpg" alt="">
-                            <div class="price">From &#8377 799</div>
-                            <div class="price">Extra 10% Off</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div><img src="./images/Mens/Men's Fasion-3.jpg" alt="">
-                            <div class="price">From &#8377 649</div>
-                            <div class="price">Upto 30% Off</div>
+    <script src="../jquery/js/jquery.js"></script>
+    <script src="./jquery-plugin/slider/jquery.flipster.min.js"></script>
+    <script src="./javascript/timer.js"></script>
 
-                        </div>
-                    </li>
-                    <li>
-                        <div><img src="./images/Mens/Men's Fasion-4.jpg" alt="">
-                            <div class="price">From &#8377 999</div>
-                            <div class="price">Extra 28% Off</div>
-
-                        </div>
-                    </li>
-                    <li>
-                        <div><img src="./images/Mens/Men's Fasion-5.jpg" alt="">
-                            <div class="price">From &#8377 749</div>
-                            <div class="price">Upto 50% Off</div>
-
-                        </div>
-                    </li>
-                    <li>
-                        <div><img src="./images/Mens/Men's Fasion-6.jpg" alt="">
-                            <div class="price">From &#8377 499</div>
-                            <div class="price">Extra 56% Off</div>
-
-                        </div>
-                    </li>
-                    <li>
-                        <div><img src="./images/Mens/Men's Fasion-7.jpg" alt="">
-                            <div class="price">From &#8377 999</div>
-                            <div class="price">Upto 50% Off</div>
-
-                        </div>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-        <div class="offers">
-            <div class="heading">
-                <div class="center">Top Offers On</div>
-                <div class="font-size">Men's Accessories</div>
-            </div>
-            <div class="top-offers">
-                <ul>
-                    <li>
-                        <div>
-                            <img src="./images/Top Offers/Bag.jpg" alt="">
-                            <div class="price">From &#8377 499</div>
-                            <div class="price">Extra 20% Off</div>
-
-                        </div>
-                    </li>
-                    <li>
-                        <div><img src="./images/Top Offers/Laptop Bag.jpg" alt="">
-                            <div class="price">From &#8377 799</div>
-                            <div class="price">Upto 50% Off</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div><img src="./images/Top Offers/lens.jpg" alt="">
-                            <div class="price">From &#8377 649</div>
-                            <div class="price">Extra 15% Off</div>
-
-                        </div>
-                    </li>
-                    <li>
-                        <div><img src="./images/Top Offers/Suitcase.jpg" alt="">
-                            <div class="price">From &#8377 999</div>
-                            <div class="price">Upto 10% Off</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div><img src="./images/Top Offers/Sunglasses.jpg" alt="">
-                            <div class="price">From &#8377 749</div>
-                            <div class="price">Upto 80% Off</div>
-
-                        </div>
-                    </li>
-                    <li>
-                        <div><img src="./images/Top Offers/Watch.jpg" alt="">
-                            <div class="price">From &#8377 499</div>
-                            <div class="price">Upto 60% Off</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div><img src="./images/Top Offers/Watch2.jpg" alt="">
-                            <div class="price">From &#8377 999</div>
-                            <div class="price">Extra 40% Off</div>
-
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="Footwear">
-            <div class="heading">
-                <div class="center">Men's Footwear</div>
-            </div>
-            <div class="shoes">
-                <ul>
-                    <li>
-                        <div>
-                            <img src="./images/Men's Footwear/Footwear-1.jpg" alt="Footwear">
-                            <div class="price">From &#8377 499</div>
-                            <div class="price">Upto 50% Off</div>
-
-                    </li>
-                    <li>
-                        <div>
-                            <img src="./images/Men's Footwear/Footwear-2.jpg" alt="Footwear">
-                            <div class="price">From &#8377 499</div>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="./images/Men's Footwear/Footwear-3.jpg" alt="Footwear">
-                            <div class="price">From &#8377 499</div>
-
-                    </li>
-                    <li>
-                        <div>
-                            <img src="./images/Men's Footwear/Footwear-4.jpg" alt="Footwear">
-                            <div class="price">From &#8377 499</div>
-                            <div class="price">Min 50% Off</div>
-
-                    </li>
-                    <li>
-                        <div>
-                            <img src="./images/Men's Footwear/Footwear-7.jpg" alt="Footwear">
-                            <div class="price">From &#8377 499</div>
-                            <div class="price">Min 40% Off</div>
-
-                    </li>
-                    <li>
-                        <div>
-                            <img src="./images/Men's Footwear/Footwear-5.jpg" alt="Footwear">
-                            <div class="price">From &#8377 499</div>
-                    </li>
-                    <li>
-                        <div>
-                            <img src="./images/Men's Footwear/Footwear-6.jpg" alt="Footwear">
-                            <div class="price">From &#8377 499</div>
-                            <div class="price">Min 30% Off</div>
-
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="Game">
-            <div class="heading">
-                <div class="center">Gaming Accessories</div>
-            </div>
-            <div class="game">
-                <ul>
-                    <li>
-                        <div>
-                            <img src="./images/Gaming Accessories/chair.jfif" alt="">
-                            <div class="price">From &#8377 999</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div><img src="./images/Gaming Accessories/headset.jpg" alt="">
-                            <div class="price">From &#8377 999</div>
-                            <div class="price">Upto 70% Off</div>
-
-                        </div>
-                    </li>
-                    <li>
-                        <div><img src="./images/Gaming Accessories/Joystick.jpg" alt="">
-                            <div class="price">From &#8377 999</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div><img src="./images/Gaming Accessories/ps5.jpg" alt="">
-                            <div class="price">From &#8377 999</div>
-                        </div>
-                    </li>
-                    <li>
-                        <div><img src="./images/Gaming Accessories/mouse.jpg" alt="">
-                            <div class="price">From &#8377 999</div>
-                            <div class="price">Upto 60% Off</div>
-
-                        </div>
-                    </li>
-                    <li>
-                        <div><img src="./images/Gaming Accessories/keyboard.jfif" alt="">
-                            <div class="price">From &#8377 999</div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!-- grid -->
-        <div class="container">
-            <div class="box" id="box-1">
-                <h2>Shop By Categories</h2>
-                <div class="wrapper">
-                    <span class="category"><img src="./images/Box-1/Laptop.jpg" alt=""><div id="text">Laptop</div></span>
-                    <span class="category"><img src="./images/Box-1/Baby.jpg" alt=""><div id="text">Baby</div></span>
-                    <span class="category"><img src="./images/Box-1/Toy.jpg" alt=""><div id="text">Toy</div></span>
-                    <span class="category"><img src="./images/Box-1/Video Game.jpg" alt=""><div id="text">Videos Game</div></span>
-                </div>
-               
-            </div>
-            <div class="box" id="box-2">
-                <h2>Home Decor</h2>
-                <div class="wrapper">
-                    <span class="category"><img src="./images/Box-2/carpet.jpg" alt=""><div id="text">Carpet</div></span>
-                    <span class="category"><img src="./images/Box-2/lamp.jpg" alt=""><div id="text">Lamp</div></span>
-                    <span class="category"><img src="./images/Box-2/sofa.jpg" alt=""><div id="text">Sofa</div></span>
-                    <span class="category"><img src="./images/Box-2/chair.jpg" alt=""><div id="text">Chair</div></span>
-                </div>
-               
-            </div>            
-            <div class="box" id="box-3">
-                <h2>Top Deals On Electronics</h2>
-                <div class="wrapper">
-                    <span class="category"><img src="./images/Box-3/wired earphone.jpg" alt=""><div id="text">Wired Earphone</div></span>
-                    <span class="category"><img src="./images/Box-3/Keyboard Skin.jpeg" alt=""><div id="text">Computer skin</div></span>
-                    <span class="category"><img src="./images/Box-3/Data Card.jpeg" alt=""><div id="text">Data Card</div></span>
-                    <span class="category"><img src="./images/Box-3/Computer cable.jpeg" alt=""><div id="text">Computer cable</div></span>
-                </div>
-               
-            </div>
-            <div class="box" id="box-4"></div>
-            <div class="box" id="box-5"></div>
-            <div class="box" id="box-6">
-                <h2>Top Sellers In Book For You</h2>
-                <div class="wrapper">
-                    <span class="category"><img src="./images/Box-4/book1.jpg" alt=""></span>
-                    <span class="category"><img src="./images/Box-4/book2.jpg" alt=""></span>
-                    <span class="category"><img src="./images/Box-4/book3.jpg" alt=""></span>
-                    <span class="category"><img src="./images/Box-4/book4.jpg" alt=""></span>
-                </div>
-            </div>
-            <div class="box" id="box-7"></div>             
-        </div>
-    </section>
-    <footer>
-       <div class="footer">
-           <div class="foot">
-              <h1>Connect with us</h1>
-              <div><a href="http://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></div>
-              <div><a href="http://instagram.com">Instagram</a></div>
-              <div><a href="http://twitter.com">Twitter</a></div>
-            </div>
-           <div class="foot">
-              <h1>Help</h1>
-              <div>Payment</div>
-              <div>Shipping</div>
-              <div>Cancellation & Return</div>
-               <div>FAQ</div>
-           </div>
-           <div class="foot">
-               <h1>Become Buisness Partner</h1>
-               <div>Sell on My-Store</div>
-               <div>Advertise Your Product</div>
-               <div>Become an Affilate</div>
-           </div>
-           <div class="foot" id = "last">
-               <h1>Policy</h1>
-               <div>Return Policy</div>
-               <div>Terms Of Use</div>
-               <div>Security</div>
-               <div>Privacy</div>
-           </div>       
-       </div>
-    </footer>
-    </div>
     <script>
         $('.deal').flipster({
             loop: true,
@@ -382,21 +411,12 @@
             buttons: true,
             scrollwheel: false
         });
-        $('.Game').flipster({
+        $('.game').flipster({
             loop: true,
             buttons: true,
             scrollwheel: false
         });
     </script>
-    <script>
-        $(function () {
-                $.scrollUp({
-                    scrollDistance: 50,
-                    scrollSpeed: 1000,
-                    scrollImg: true
-                });
-});
-    </script>
-     <script src="./javascript/timer.js"></script> 
 </body>
+
 </html>
